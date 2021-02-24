@@ -1,0 +1,26 @@
+.Article{
+	display: grid;
+	grid-template-columns: repeat(10, minmax(100px, 1fr));
+	grid-template-rows:    repeat(10, 10vw);
+	grid-gap: 10px;
+} 
+
+.NavBarBox{
+	padding-left: 0px;
+	grid-column: 1/3;
+	grid-row: 1/11;
+	background: #9999ff;
+	border: 2px solid #000;
+}
+.NavBarBox h1{
+	padding-left: 10px;
+}
+
+.ContentBox{
+	padding-left: 10px;
+	background: #aaaaaa;
+	grid-row: 1/11;
+	grid-column: 3/11;
+	border: 2px solid #000;
+	
+}
